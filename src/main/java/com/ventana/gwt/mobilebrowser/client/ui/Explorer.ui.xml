@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM 'http://dl.google.com/gwt/DTD/xhtml.ent'>
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	>
+	<g:HTMLPanel tag='section'>
+		<g:HTMLPanel tag='section' styleName='content'>
+			<g:HTMLPanel tag='section' styleName='imageBrowser'>
+				<ul>
+				</ul>
+			</g:HTMLPanel>
+		</g:HTMLPanel>
+		<g:HTMLPanel tag='section' styleName='leftNav'>
+			<g:HTMLPanel tag='section'>
+				<ul>
+				</ul>
+			</g:HTMLPanel>
+		</g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,52 @@
+√ dependency test
+√ test activity factory returns the root place of the activity
+√ compose explorerContainer with navigatorContainer
+√ change ImagePlace to ExplorerPlace
+√ add service to retrieve siblings for folder
+√ purge places from ui
+√ add place for files
+√ add activity manager for content area
+√ add title in toolbar
+√ double check form validations
+√ attach to image information button in explorer
+√ pop dialog up when image information button is clicked
+√ service to retrieve image information from  iScanXml query
+√ CANCEL/VIEW/FORWARD/BACK buttons on popup dialog
+√ PROTOCOL: e.g., http
+√ HOST: e.g., 107.22.162.235
+√ PORT: e.g., :85
+√ PATH: e.g., /FakeIMS_Web/FakeIMS
+√ add browse/edit/delete icons to root folder
+√ purge dead code in explorer
+√ factor out gwtquery from explorerui
+√ factor out gwtquery from imageui
+√ add Notify to when methods
+√ factor out browse link in rootfolder
+√ purge gwtquery from image viewer ui
+√ factor out load/unload life cylce from ui
+√ factor in start/onStop life cylce into ui
+√ factor out duplication in publishers
+√ factor out presenter factory from PopUpEditWidget
+√ factor out presenter factory from ImageInformationWidget
+√ factor in lil presenter encapsulated parameters to activity
+√ add parent to child composites
+· factor in popup delete widget container mvp triple
+· factor in navigation container mvp triple
+· factor in explorer container mvp triple
+· encapsulate paramenter refactoring for dispatcher, payload and response
+· segregate interfaces for views passed to activities
+· factor out popupMessage from ExplorerView
+· add test data builder for url parsing tests
+x factor in gwttestutils test
+x factor in gwttestutils test
+x factor out slow gin module
+x factor Directory into composites and ExplorerActivity
+x factor out DirectoryActivity
+x add legible breadcrumbs after hash
+x css for forward/back navigation in image information popup
+
+
+
+
+
+

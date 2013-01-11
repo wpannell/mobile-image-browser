@@ -1,0 +1,13 @@
+clone : https://github.com/apache/incubator-cordova-android.git
+to    : /Users/WPANNELL/git
+______________
+
+from here:
+
+./
+
+do this:
+
+/Users/WPANNELL/git/incubator-cordova-android/bin/create ./android org.apache.cordova.android VentanaMobileBrowserOnAndroid
+______________
+

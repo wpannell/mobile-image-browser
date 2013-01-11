@@ -1,0 +1,505 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*begin our styles*/
+
+body {
+  font: 16px/1.4em 'PT Sans', sans-serif;;
+  color: #1c1c1c;
+  margin: 0;
+}
+
+p,
+ul {
+  margin: 0 0 1.5em;
+}
+
+ul {
+  list-style: disc;
+  padding: 0 0 0 20px;
+}
+
+a {
+  color: #1D745A;
+}
+
+h1 {
+
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 32px;
+  line-height: 1.4em;
+  margin: 0 0 .4em;
+  font-weight: bold;
+}
+
+/*layout*/
+
+.wrapper {
+}
+
+article {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 10px 20px 0 20px;
+  margin: 10px 0;
+}
+
+/*header*/
+
+header {
+  background: #1C1C1C;
+  background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+  padding: .5em 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+    /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
+    header:before,
+    header:after {
+        content:"";
+        display:table;
+    }
+
+    header:after {
+        clear:both;
+    }
+
+    /* For IE 6/7 (trigger hasLayout) */
+    header {
+        zoom:1;
+    }
+
+h1.title a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.5em;
+  float: left;
+  letter-spacing: 0.2em;
+  text-shadow: 0px 2px 5px black;
+}
+
+#logo {
+  float:right;
+}
+
+a.to_nav {
+  float: right;
+  color: #fff;
+  background: #4e4e4e;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+a.to_nav:hover,
+a.to_nav:focus {
+  color: #1c1c1c;
+  background: #ccc;
+}
+
+/*navigation*/
+
+/*footer*/
+
+footer {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/*left navigation*/
+.leftNav {
+  border-bottom:1px solid #666;
+  overflow:auto;
+  background:#CCC;
+  width:200px;
+  position:fixed;
+  top: 46px;
+  bottom: 0;
+  left: 0;
+  padding-top: 8px;
+}
+
+.leftNav section {
+  height:100%;
+  overflow: auto;
+}
+
+.leftNav ul {
+  padding:0;
+  margin: 0;
+}
+.leftNav li {
+  float: left;
+  /*background: -webkit-linear-gradient(top, #FFF, #DDD);*/
+  background: #f0f0f0 url(img/leftNavBackground.png) repeat-y right;
+  background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(226,226,226,1) 100%); /* Chrome10+,Safari5.1+ */
+  width: 100%;
+}
+.leftNav li:hover {
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(254,254,254,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+.leftNav li div {
+  overflow: auto;
+  border-bottom: 1px solid #BBB;
+  border-right: 1px solid #BBB;
+}
+
+.leftNav img {
+  width: 95%;
+  margin: .5em 0 0 2.5%;
+  border: 1px solid #C6C6C6;
+}
+.leftNav p {
+  margin: 0 70px 0 2.5%;
+  font-weight: bold;
+  float:left;
+  line-height:32px;
+}
+.leftNav a.folderLink {
+  /*background:url(img/menuNext.png) no-repeat right;*/
+  padding: 0 0 0 5px;
+  overflow:hidden;
+  display: block;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #FFF;
+  line-height:2.5em;
+  text-overflow: ellipsis;
+}
+
+.leftNav li.selected {
+  /*background: -webkit-linear-gradient(top, #FFF, #DDD);*/
+  background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 70%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+}
+.leftNav li.selected a.folderLink {
+  /*background:url(img/menuNext.png) no-repeat right;*/
+  background: url(img/leftNavBackgroundSelected.png) no-repeat right top;
+  color: #FFF;
+  font-weight: normal;
+  text-decoration: none;
+  text-shadow: 0px 2px 2px #356b85;
+  line-height:2.2em;
+  text-overflow: ellipsis;
+}
+
+.leftNav li.selected div {
+  border-bottom: 1px solid #356b85;
+  border-right: 0;
+}
+
+.content {
+  bottom: 0;
+  left: 0;
+  padding-top: 8px;
+  position:fixed;
+  right: 0;
+  top: 46px;
+}
+
+
+
+/*thumbnail view*/
+.imageBrowser ul {
+  margin:0;
+  padding:0;
+}
+.imageBrowser {
+  height:100%;
+  overflow: auto;
+}
+.imageBrowser li {
+  float: left;
+  background-color: #F8F8F8;
+  list-style: none;
+}
+
+.imageBrowser li div {
+  overflow: auto;
+  border-bottom: 1px solid #C6C6C6;
+  border-right: 1px solid #C6C6C6;
+  border-left: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  padding-top: 33%;
+  position:relative;
+}
+
+.imageBrowser li div a {
+  position: absolute;
+  top:5%;
+  left:2.5%;
+  display:block;
+  width:95%
+}
+
+.imageBrowser img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 0px solid #C6C6C6;
+}
+.imageBrowser p {
+  margin: 0 0 0 2.5%;
+  font-weight: bold;
+  float:left;
+  line-height:32px;
+}
+.imageBrowser a.imageInfoLink {
+  float: right;
+  width: 32px;
+  height:32px;
+  background:url(img/info.png) no-repeat;
+  margin-right: 3.5%;
+  overflow:hidden;
+  text-indent: 100px;
+  position:relative;
+}
+
+.imageBrowser a.deleteLink {
+  float: right;
+  width: 32px;
+  height:32px;
+  background:url(img/delete.png) no-repeat;
+  margin-right: 3.5%;
+  overflow:hidden;
+  text-indent: 100px;
+  position:relative;
+}
+
+.imageBrowser a.editLink {
+  float: right;
+  width: 32px;
+  height:32px;
+  background:url(img/edit.png) no-repeat;
+  margin-right: 3.5%;
+  overflow:hidden;
+  text-indent: 100px;
+  position:relative;
+}
+
+/*...engineering styles to be reviewed by creative...*/
+
+.center {
+	text-align: center;
+}
+
+.image-navigator img {
+	height: auto;
+	width: auto;
+}
+
+.imageBrowser hr {
+	padding-top: 12px;
+	height: 6px;
+	border-bottom: 2px solid black;
+	clear: both;
+}
+
+.imageBrowser table th {
+	border-top: none;
+}
+
+.imageBrowser table td {
+	border-top: none;
+}
+
+.imageBrowser table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
+}
+
+li.image-navigator div {
+  overflow: auto;
+  border: none;
+}
+
+
+li.image-navigator .left-arrow {
+	float: left;
+}
+
+li.image-navigator .right-arrow {
+	float: right;
+	clear: both;
+}
+
+a.toolbar {
+	float: left;
+	color: white;
+	background: #4E4E4E;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 2em;
+}
+
+/*media queries*/
+
+    /*@media only screen and (min-width: 720px) and (orientation: landscape) {
+
+      .imageBrowser li {
+        width:50%;
+      }
+
+    }
+
+    @media only screen and (max-width : 720px) and (orientation: portrait) {
+
+      .imageBrowser li {
+        width:100%;
+      }
+
+    }*/
+
+    @media only screen and (orientation: landscape) and (max-width: 720px) {
+
+      .imageBrowser li, .folderBrowser li {
+        width:50%;
+      }
+      /*.leftNav {
+        display:block
+      }
+      .content {
+        margin-left:200px;
+      }*/
+
+      .imageBrowser li, .folderBrowser li {
+        width:50%;
+      }
+      .leftNav {
+        display:none;
+      }
+
+    }
+    @media only screen and (orientation: landscape) and (min-width: 720px) {
+
+      .imageBrowser li, .folderBrowser li {
+        width:33.333%;
+      }
+      .leftNav {
+        display:block
+      }
+      .content {
+        margin-left:200px;
+      }
+
+    }
+
+    @media only screen and (orientation: portrait) and (max-width: 600px) {
+
+      .imageBrowser li, .folderBrowser li {
+        width:100%;
+      }
+      .leftNav {
+        display:none
+      }
+      .imageBrowser li.ImageFolder div {
+        padding: 0;;
+      }
+      .imageBrowser li.ImageFolder a {
+        float:left;
+        width: 32px;
+        height:32px;
+        margin: 1px 10px 1px 1px;
+        position: relative;
+        display: inline-block;
+        left:auto;
+      }
+      .imageBrowser li.ImageFolder a img {
+        width: 32px;
+        height: 32px;
+      }
+      .imageBrowser li.ImageFolder p {
+        float:left;
+        height:32px;
+        margin: 0;
+      }
+
+    }
+
+    @media only screen and (orientation: portrait) and (min-width: 600px) {
+
+      .imageBrowser li, .folderBrowser li {
+        width:50%;
+      }
+      .leftNav {
+        display:none;
+      }
+
+    }

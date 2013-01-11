@@ -1,0 +1,32 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	>
+	<g:HTMLPanel>
+	  <div class="wrapper">
+	    <header>
+	      <h1 class="title" style="">
+	        <a href="">ImageViewer</a>
+	      </h1>
+	      <img id="logo" src="mobilebrowser/img//RocheLogo.png">
+	        <a class="to_nav" href="#primary_nav">Back</a>
+	      </img>
+	    </header>
+	    <section class="content">
+	      <section class="imageBrowser">
+	        <ul>
+	        </ul>
+	      </section>
+	    </section>
+
+	    <section class="leftNav">
+	      <section>
+	        <ul>
+	        </ul>
+	      </section>
+	    </section>
+	    <footer> </footer>
+	  </div>
+	  <!--end wrapper-->
+	</g:HTMLPanel>
+</ui:UiBinder>

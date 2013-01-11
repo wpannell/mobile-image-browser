@@ -1,0 +1,57 @@
+<!DOCTYPE ui:UiBinder SYSTEM 'http://dl.google.com/gwt/DTD/xhtml.ent'>
+<ui:UiBinder xmlns:b='urn:import:com.github.gwtbootstrap.client.ui'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:v='urn:import:com.ventana.gwt.mobilebrowser.client.widgets'
+	xmlns:ui='urn:ui:com.google.gwt.uibinder'>
+	<b:Modal ui:field='modal' styleName='modal hide fade center'
+		title='Information For: ' backdrop='STATIC' keyboard='true' animation='false'
+		closeVisible='false'>
+		<g:HTMLPanel tag='section' styleName='imageBrowser'>
+			<ul>
+				<li class='image-navigator left-arrow'>
+					<div>
+						<g:Anchor ui:field='previous' href='javascript:void(0)'>
+							<img src='mobilebrowser/img/left.png' />
+						</g:Anchor>
+					</div>
+				</li>
+				<li class='image-navigator thumb'></li>
+				<li class='image-navigator right-arrow'>
+					<div>
+						<g:Anchor ui:field='next' href='javascript:void(0)'>
+							<img src='mobilebrowser/img/right.png' />
+						</g:Anchor>
+					</div>
+				</li>
+			</ul>
+			<hr />
+      <table class="table">
+        <tbody>
+          <tr><th>SCANNED</th><td><b:Strong ui:field='dateTimeStrong' /></td></tr>
+          <tr><th>MAGNIFICATION</th><td><b:Strong ui:field='magnificationStrong' /></td></tr>
+          <tr><th>SCAN RESOLUTION</th><td><b:Strong ui:field='scanResolutionStrong' /></td></tr>
+        </tbody>
+      </table>
+      <b:AccordionGroup heading="See More...">
+        <g:HTMLPanel>
+          <table class="table">
+            <tbody>
+              <tr><th>DIMENSIONS</th><td><b:Strong ui:field='dimensionsStrong' /></td></tr>
+              <tr><th>SCAN MODE</th><td><b:Strong ui:field='scanModeStrong' /></td></tr>
+              <tr><th>Z-LAYERS</th><td><b:Strong ui:field='zLayersStrong' /></td></tr>
+              <tr><th>Z-SPACING</th><td><b:Strong ui:field='zSpacingStrong' /></td></tr>
+              <tr><th>FOCUS MODE</th><td><b:Strong ui:field='focusModeStrong' /></td></tr>
+              <tr><th>FOCUS QUALITY</th><td><b:Strong ui:field='focusQualityStrong' /></td></tr>
+              <tr><th>UNIT NUMBER</th><td><b:Strong ui:field='unitNumberStrong' /></td></tr>
+              <tr><th>BUILD VERSION</th><td><b:Strong ui:field='buildVersionStrong' /></td></tr>
+              <tr><th>BUILD DATE</th><td><b:Strong ui:field='buildDateStrong' /></td></tr>
+            </tbody>
+          </table>
+        </g:HTMLPanel>
+      </b:AccordionGroup>
+		</g:HTMLPanel>
+		<b:ModalFooter>
+			<b:Button ui:field='viewButton' type='PRIMARY'>VIEW</b:Button>
+			<b:Button ui:field='cancelButton' type='DANGER'>CANCEL</b:Button>
+		</b:ModalFooter>
+	</b:Modal>
+</ui:UiBinder>

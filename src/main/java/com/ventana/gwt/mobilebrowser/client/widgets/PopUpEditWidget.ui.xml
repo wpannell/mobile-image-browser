@@ -1,0 +1,47 @@
+<!DOCTYPE ui:UiBinder SYSTEM 'http://dl.google.com/gwt/DTD/xhtml.ent'>
+<ui:UiBinder
+  xmlns:b='urn:import:com.github.gwtbootstrap.client.ui'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:v='urn:import:com.ventana.gwt.mobilebrowser.client.widgets'
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	>
+	<b:Modal ui:field='modal' styleName='modal hide fade'
+	   title='Enter NAME, PROTOCOL and PATH' backdrop='STATIC' keyboard='true'
+	   animation='false' closeVisible='false'>
+    <b:WellForm type='HORIZONTAL' height='185px'>
+      <b:Fieldset>
+        <v:InterrogatingControlGroup ui:field='nameValidator' >
+          <b:ControlLabel width='20%'>NAME: &nbsp;</b:ControlLabel>
+          <b:TextBox ui:field='nameTextBox' width='70%' placeholder='name' />
+          <b:HelpBlock ui:field='emptyNameHelp'>plese provide name</b:HelpBlock>
+          <b:HelpBlock ui:field='duplicateNameHelp'>name must be unique</b:HelpBlock>
+        </v:InterrogatingControlGroup>
+
+        <v:InterrogatingControlGroup ui:field='protocolValidator' >
+          <b:ControlLabel width='20%'>PROTOCOL: &nbsp;</b:ControlLabel>
+					<b:DropdownButton ui:field='httpDropDown' text='http' width='70%' >
+					  <b:NavLink ui:field='httpLink'>http</b:NavLink>
+					  <b:NavLink ui:field='httpsLink'>https</b:NavLink>
+					</b:DropdownButton>
+        </v:InterrogatingControlGroup>
+
+        <v:InterrogatingControlGroup ui:field='pathValidator' >
+          <b:ControlLabel width='20%'>PATH: &nbsp;</b:ControlLabel>
+          <b:TextBox ui:field='pathTextBox' width='70%' placeholder='path' />
+          <b:HelpBlock ui:field='emptyPathHelp'>please provide path</b:HelpBlock>
+          <b:HelpBlock ui:field='duplicatePathHelp'>path must be unique</b:HelpBlock>
+          <b:HelpBlock ui:field='badPathHelp'>unable to access url</b:HelpBlock>
+        </v:InterrogatingControlGroup>
+
+        <v:InterrogatingControlGroup ui:field='dataUnchangedValidator' >
+          <b:Button ui:field='validateButton' type='WARNING'>VALIDATE</b:Button>
+          <b:HelpBlock ui:field='dataUnchangedHelp'>input data not changed</b:HelpBlock>
+        </v:InterrogatingControlGroup>
+      </b:Fieldset>
+    </b:WellForm>
+    <b:ModalFooter>
+      <b:Button ui:field='saveButton' type='PRIMARY'>SAVE</b:Button>
+      <b:Button ui:field='cancelButton' type='DANGER'>CANCEL</b:Button>
+    </b:ModalFooter>
+  </b:Modal>
+</ui:UiBinder>

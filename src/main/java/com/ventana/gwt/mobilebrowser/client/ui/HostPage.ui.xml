@@ -1,0 +1,30 @@
+<!DOCTYPE ui:UiBinder SYSTEM 'http://dl.google.com/gwt/DTD/xhtml.ent'>
+<ui:UiBinder
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:c='urn:import:com.ventana.gwt.mobilebrowser.client.containers'
+  xmlns:v='urn:import:com.ventana.gwt.mobilebrowser.client.widgets'
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  >
+  <g:HTMLPanel styleName='wrapper'>
+	  <v:ToolBarWidget ui:field='toolBar'>
+	  </v:ToolBarWidget>
+
+		<c:ContentContainer ui:field='container'>
+		</c:ContentContainer>
+
+	  <v:FooterWidget ui:field='footer'>
+	  </v:FooterWidget>
+
+	  <v:PopUpConfirmationWidget ui:field='popUpConfirmation'>
+	  </v:PopUpConfirmationWidget>
+
+	  <v:PopUpEditWidget ui:field='popUpEdit'>
+	  </v:PopUpEditWidget>
+
+	  <v:PopUpDeleteWidget ui:field='popUpDelete'>
+	  </v:PopUpDeleteWidget>
+
+	  <v:PopUpImageInformationWidget ui:field='popUpImageInformation'>
+	  </v:PopUpImageInformationWidget>
+  </g:HTMLPanel> <!--end wrapper -->
+</ui:UiBinder>

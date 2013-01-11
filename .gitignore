@@ -1,0 +1,17 @@
+.git
+.svn
+.DS_Store
+.classpath
+.project
+.settings
+android/assets/www/index.html
+android/assets/www/sandbox.html
+android/assets/www/mobilebrowser
+ios/www/index.html
+ios/www/sandbox.html
+ios/www/mobilebrowser
+target
+gwt-unitCache
+war
+coverage.ec
+www-test

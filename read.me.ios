@@ -1,0 +1,12 @@
+clone : https://github.com/apache/incubator-cordova-ios.git
+to    : /Users/WPANNELL/git
+______________
+
+from here:
+
+./
+
+do this:
+
+/Users/WPANNELL/git/incubator-cordova-ios/bin/create --shared ./ios org.apache.cordova.ios VentanaMobileBrowserOnIos
+______________
