@@ -10,6 +10,9 @@ android/assets/www/mobilebrowser
 ios/www/index.html
 ios/www/sandbox.html
 ios/www/mobilebrowser
+ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/
+ios/VentanaMobileBrowser.xcodeproj/project.xcworkspace/
+ios/VentanaMobileBrowser.xcodeproj/xcuserdata/
 target
 gwt-unitCache
 war
