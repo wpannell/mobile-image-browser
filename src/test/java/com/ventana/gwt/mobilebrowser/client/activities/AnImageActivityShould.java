@@ -112,6 +112,12 @@ public class AnImageActivityShould {
   }
 
   @Test
+  public void refresh() {
+    activity.start(mockContainer, mockEventBus);
+    verify(mockView).refresh();
+  }
+
+  @Test
   public void configureImage() {
     given(mockImagePlace.getProtocol()).willReturn("http://");
     given(mockImagePlace.getHost()).willReturn("127.0.0.0");

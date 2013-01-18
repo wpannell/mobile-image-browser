@@ -11,5 +11,6 @@ public interface MobileImageViewerComponent {
   void deRegisterEvents();
   Widget getImageViewer();
   void registerEvents();
+  void refresh();
   void whenZoomChangedNotify(final Subscriber<String> subscriber);
 }

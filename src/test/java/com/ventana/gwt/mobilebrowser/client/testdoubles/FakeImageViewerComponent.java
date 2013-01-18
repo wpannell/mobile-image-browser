@@ -10,10 +10,9 @@ import com.ventana.gwt.mobilebrowser.client.views.components.MobileImageViewerCo
 public class FakeImageViewerComponent implements MobileImageViewerComponent {
   @Override
   @SuppressWarnings("unused")
-  public void
-      configure(String protocol, String host, String port, String path,
-          String fileName, int[][] qualityLevels,
-          int magnification) {
+  public void configure(String protocol, String host, String port, String path,
+      String fileName, int[][] qualityLevels,
+      int magnification) {
   }
 
   @Override
@@ -32,5 +31,9 @@ public class FakeImageViewerComponent implements MobileImageViewerComponent {
   @Override
   @SuppressWarnings("unused")
   public void whenZoomChangedNotify(Subscriber<String> subscriber) {
+  }
+
+  @Override
+  public void refresh() {
   }
 }

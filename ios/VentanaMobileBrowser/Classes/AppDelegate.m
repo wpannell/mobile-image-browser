@@ -1,3 +1,4 @@
+
 /*
  Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements.  See the NOTICE file
@@ -25,6 +26,9 @@
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
+#ifdef TOUCHTESTDRIVER
+#import "TouchTestDriver.h"
+#endif
 #import "AppDelegate.h"
 #import "MainViewController.h"
 
@@ -115,6 +119,9 @@
 // only valid if VentanaMobileBrowser-Info.plist specifies a protocol to handle
 - (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)url
 {
+#ifdef TOUCHTESTDRIVER
+url = [TouchTestDriver startSession:url];
+#endif
     if (!url) {
         return NO;
     }

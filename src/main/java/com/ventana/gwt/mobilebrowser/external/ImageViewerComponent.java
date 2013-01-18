@@ -52,6 +52,11 @@ public class ImageViewerComponent implements MobileImageViewerComponent {
   }
 
   @Override
+  public void refresh() {
+    getViewportModel().setZoom(getViewportModel().getZoom());
+  }
+
+  @Override
   public void registerEvents() {
     eventRegistration = getViewportModel().addPropertyChangeHandler(
         ViewportModel.ZOOM, new PropertyChangeHandler() {

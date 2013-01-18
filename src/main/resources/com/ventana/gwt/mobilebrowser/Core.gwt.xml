@@ -10,6 +10,8 @@
   <inherits name='com.google.gwt.place.Place'/>
   <inherits name='com.google.gwt.inject.Inject'/>
 
+  <inherits name='com.ventana.gwt.mobile_viewer.MobileViewer' />
+
   <inherits name='com.github.gwtbootstrap.Bootstrap' />
   <inherits name='com.google.gwt.query.Query'/>
   <inherits name='gwtquery.plugins.droppable.Droppable'/>

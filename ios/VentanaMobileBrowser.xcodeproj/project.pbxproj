@@ -42,6 +42,47 @@
 		30A0434914DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
 		30E1352710E2C1420031B30D /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* Cordova.plist */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		339BCDB616A60DAD00DE84C8 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
+		339BCDB716A60DAD00DE84C8 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* Cordova.plist */; };
+		339BCDB816A60DAD00DE84C8 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		339BCDB916A60DAD00DE84C8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		339BCDBA16A60DAD00DE84C8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		339BCDBB16A60DAD00DE84C8 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3072F99613A8081B00425683 /* Capture.bundle */; };
+		339BCDBC16A60DAD00DE84C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
+		339BCDBD16A60DAD00DE84C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDF13BBADB100FB74C0 /* Localizable.strings */; };
+		339BCDBE16A60DAD00DE84C8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		339BCDBF16A60DAD00DE84C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
+		339BCDC016A60DAD00DE84C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
+		339BCDC116A60DAD00DE84C8 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		339BCDC216A60DAD00DE84C8 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		339BCDC316A60DAD00DE84C8 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		339BCDC416A60DAD00DE84C8 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		339BCDC516A60DAD00DE84C8 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		339BCDC616A60DAD00DE84C8 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		339BCDC716A60DAD00DE84C8 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		339BCDC916A60DAD00DE84C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		339BCDCA16A60DAD00DE84C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		339BCDCB16A60DAD00DE84C8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		339BCDCD16A60DAD00DE84C8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		339BCDCE16A60DAD00DE84C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		339BCDCF16A60DAD00DE84C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		339BCDD016A60DAD00DE84C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		339BCDD116A60DAD00DE84C8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B4109A6A2B0062928A /* AddressBook.framework */; };
+		339BCDD216A60DAD00DE84C8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B6109A6A2B0062928A /* AddressBookUI.framework */; };
+		339BCDD316A60DAD00DE84C8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B8109A6A2B0062928A /* AudioToolbox.framework */; };
+		339BCDD416A60DAD00DE84C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BA109A6A2B0062928A /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		339BCDD516A60DAD00DE84C8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BC109A6A2B0062928A /* CFNetwork.framework */; };
+		339BCDD616A60DAD00DE84C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BE109A6A2B0062928A /* CoreLocation.framework */; };
+		339BCDD716A60DAD00DE84C8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C0109A6A2B0062928A /* MediaPlayer.framework */; };
+		339BCDD816A60DAD00DE84C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C2109A6A2B0062928A /* QuartzCore.framework */; };
+		339BCDD916A60DAD00DE84C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */; };
+		339BCDDA16A60DAD00DE84C8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		339BCDDB16A60DAD00DE84C8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		50F5D65E17A8D35343735623 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65717A8D35343735623 /* OpenGLES.framework */; };
+		50F5D65F17A8D35343735623 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65817A8D35343735623 /* MapKit.framework */; };
+		50F5D66017A8D35343735623 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65917A8D35343735623 /* libz.dylib */; };
+		50F5D66117A8D35343735623 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65A17A8D35343735623 /* libxml2.dylib */; };
+		50F5D66217A8D35343735623 /* libTouchTestDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65B17A8D35343735623 /* libTouchTestDriver.a */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +95,13 @@
 			remoteInfo = CordovaLib;
 		};
 		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		339BCDB316A60DAD00DE84C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 			proxyType = 1;
@@ -102,6 +150,14 @@
 		30E1352610E2C1420031B30D /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cordova.plist; path = ../Cordova.plist; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* VentanaMobileBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VentanaMobileBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowser copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "VentanaMobileBrowser copy.app"; path = VentanaMobileBrowsercopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339BCDE116A60DAE00DE84C8 /* VentanaMobileBrowser copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VentanaMobileBrowser copy-Info.plist"; path = "/Users/WPANNELL/development/java/workspace/mobile-image-browser/ios/VentanaMobileBrowser copy-Info.plist"; sourceTree = "<absolute>"; };
+		50F5D65717A8D35343735623 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		50F5D65817A8D35343735623 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		50F5D65917A8D35343735623 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		50F5D65A17A8D35343735623 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		50F5D65B17A8D35343735623 /* libTouchTestDriver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTouchTestDriver.a; sourceTree = "<group>"; };
+		50F5D65C17A8D35343735623 /* TouchTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTestDriver.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* VentanaMobileBrowser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VentanaMobileBrowser-Info.plist"; path = "../VentanaMobileBrowser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +185,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		339BCDCC16A60DAD00DE84C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339BCDCD16A60DAD00DE84C8 /* libCordova.a in Frameworks */,
+				339BCDCE16A60DAD00DE84C8 /* Foundation.framework in Frameworks */,
+				339BCDCF16A60DAD00DE84C8 /* UIKit.framework in Frameworks */,
+				339BCDD016A60DAD00DE84C8 /* CoreGraphics.framework in Frameworks */,
+				339BCDD116A60DAD00DE84C8 /* AddressBook.framework in Frameworks */,
+				339BCDD216A60DAD00DE84C8 /* AddressBookUI.framework in Frameworks */,
+				339BCDD316A60DAD00DE84C8 /* AudioToolbox.framework in Frameworks */,
+				339BCDD416A60DAD00DE84C8 /* AVFoundation.framework in Frameworks */,
+				339BCDD516A60DAD00DE84C8 /* CFNetwork.framework in Frameworks */,
+				339BCDD616A60DAD00DE84C8 /* CoreLocation.framework in Frameworks */,
+				339BCDD716A60DAD00DE84C8 /* MediaPlayer.framework in Frameworks */,
+				339BCDD816A60DAD00DE84C8 /* QuartzCore.framework in Frameworks */,
+				339BCDD916A60DAD00DE84C8 /* SystemConfiguration.framework in Frameworks */,
+				339BCDDA16A60DAD00DE84C8 /* MobileCoreServices.framework in Frameworks */,
+				339BCDDB16A60DAD00DE84C8 /* CoreMedia.framework in Frameworks */,
+				50F5D65E17A8D35343735623 /* OpenGLES.framework in Frameworks */,
+				50F5D65F17A8D35343735623 /* MapKit.framework in Frameworks */,
+				50F5D66017A8D35343735623 /* libz.dylib in Frameworks */,
+				50F5D66117A8D35343735623 /* libxml2.dylib in Frameworks */,
+				50F5D66217A8D35343735623 /* libTouchTestDriver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* VentanaMobileBrowser.app */,
+				339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowser copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +264,8 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				339BCDE116A60DAE00DE84C8 /* VentanaMobileBrowser copy-Info.plist */,
+				50F5D65D17A8D35343735623 /* TouchTestDriver */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -228,6 +314,10 @@
 				301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				30E5649113A7FCAF007403D8 /* CoreMedia.framework */,
+				50F5D65717A8D35343735623 /* OpenGLES.framework */,
+				50F5D65817A8D35343735623 /* MapKit.framework */,
+				50F5D65917A8D35343735623 /* libz.dylib */,
+				50F5D65A17A8D35343735623 /* libxml2.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,6 +378,15 @@
 			path = se.lproj;
 			sourceTree = "<group>";
 		};
+		50F5D65D17A8D35343735623 /* TouchTestDriver */ = {
+			isa = PBXGroup;
+			children = (
+				50F5D65B17A8D35343735623 /* libTouchTestDriver.a */,
+				50F5D65C17A8D35343735623 /* TouchTestDriver.h */,
+			);
+			path = TouchTestDriver;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +407,25 @@
 			name = VentanaMobileBrowser;
 			productName = VentanaMobileBrowser;
 			productReference = 1D6058910D05DD3D006BFB54 /* VentanaMobileBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339BCDB116A60DAD00DE84C8 /* VentanaMobileBrowser copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339BCDDC16A60DAD00DE84C8 /* Build configuration list for PBXNativeTarget "VentanaMobileBrowser copy" */;
+			buildPhases = (
+				339BCDB416A60DAD00DE84C8 /* Touch www folder */,
+				339BCDB516A60DAD00DE84C8 /* Resources */,
+				339BCDC816A60DAD00DE84C8 /* Sources */,
+				339BCDCC16A60DAD00DE84C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339BCDB216A60DAD00DE84C8 /* PBXTargetDependency */,
+			);
+			name = "VentanaMobileBrowser copy";
+			productName = VentanaMobileBrowser;
+			productReference = 339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowser copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -343,6 +461,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* VentanaMobileBrowser */,
+				339BCDB116A60DAD00DE84C8 /* VentanaMobileBrowser copy */,
 			);
 		};
 /* End PBXProject section */
@@ -383,10 +502,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		339BCDB516A60DAD00DE84C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339BCDB616A60DAD00DE84C8 /* www in Resources */,
+				339BCDB716A60DAD00DE84C8 /* Cordova.plist in Resources */,
+				339BCDB816A60DAD00DE84C8 /* icon-72.png in Resources */,
+				339BCDB916A60DAD00DE84C8 /* icon.png in Resources */,
+				339BCDBA16A60DAD00DE84C8 /* icon@2x.png in Resources */,
+				339BCDBB16A60DAD00DE84C8 /* Capture.bundle in Resources */,
+				339BCDBC16A60DAD00DE84C8 /* Localizable.strings in Resources */,
+				339BCDBD16A60DAD00DE84C8 /* Localizable.strings in Resources */,
+				339BCDBE16A60DAD00DE84C8 /* MainViewController.xib in Resources */,
+				339BCDBF16A60DAD00DE84C8 /* Localizable.strings in Resources */,
+				339BCDC016A60DAD00DE84C8 /* Localizable.strings in Resources */,
+				339BCDC116A60DAD00DE84C8 /* Default-Landscape@2x~ipad.png in Resources */,
+				339BCDC216A60DAD00DE84C8 /* Default-Landscape~ipad.png in Resources */,
+				339BCDC316A60DAD00DE84C8 /* Default-Portrait@2x~ipad.png in Resources */,
+				339BCDC416A60DAD00DE84C8 /* Default-Portrait~ipad.png in Resources */,
+				339BCDC516A60DAD00DE84C8 /* Default@2x~iphone.png in Resources */,
+				339BCDC616A60DAD00DE84C8 /* Default~iphone.png in Resources */,
+				339BCDC716A60DAD00DE84C8 /* Default-568h@2x~iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		304B58A110DAC018002A0835 /* Touch www folder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Touch www folder";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "touch -cm ${PROJECT_DIR}/www";
+		};
+		339BCDB416A60DAD00DE84C8 /* Touch www folder */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,6 +571,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		339BCDC816A60DAD00DE84C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339BCDC916A60DAD00DE84C8 /* main.m in Sources */,
+				339BCDCA16A60DAD00DE84C8 /* AppDelegate.m in Sources */,
+				339BCDCB16A60DAD00DE84C8 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -420,6 +588,11 @@
 			isa = PBXTargetDependency;
 			name = CordovaLib;
 			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+		339BCDB216A60DAD00DE84C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 339BCDB316A60DAD00DE84C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -497,6 +670,88 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = VentanaMobileBrowser;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1A9D1AB5-5902-42BC-8F03-EB3AC4A56F74";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		339BCDDD16A60DAD00DE84C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VentanaMobileBrowser/VentanaMobileBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = TOUCHTESTDRIVER;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "VentanaMobileBrowser copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TouchTestDriver\"",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-all_load",
+					"-Obj-C",
+					"-ObjC",
+				);
+				PRODUCT_NAME = VentanaMobileBrowsercopy;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1A9D1AB5-5902-42BC-8F03-EB3AC4A56F74";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		339BCDDE16A60DAD00DE84C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VentanaMobileBrowser/VentanaMobileBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = TOUCHTESTDRIVER;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "VentanaMobileBrowser copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TouchTestDriver\"",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-all_load",
+					"-Obj-C",
+					"-ObjC",
+				);
+				PRODUCT_NAME = VentanaMobileBrowsercopy;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1A9D1AB5-5902-42BC-8F03-EB3AC4A56F74";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
@@ -587,6 +842,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339BCDDC16A60DAD00DE84C8 /* Build configuration list for PBXNativeTarget "VentanaMobileBrowser copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339BCDDD16A60DAD00DE84C8 /* Debug */,
+				339BCDDE16A60DAD00DE84C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

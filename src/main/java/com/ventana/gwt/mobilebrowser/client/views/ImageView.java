@@ -12,7 +12,9 @@ public interface ImageView {
       final int[][] qualityLevels, final int magnification);
 
   void deRegisterEvents();
+  void refresh();
   void registerEvents();
   void whenTappedNotify(final Subscriber<Void> subscriber);
   void whenZoomChangedNotify(final Subscriber<String> imageZoomSubscriber);
+
 }

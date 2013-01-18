@@ -1,3 +1,4 @@
+
 /*
  Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements.  See the NOTICE file
@@ -24,10 +25,17 @@
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
+#ifdef TOUCHTESTDRIVER
+#import "TouchTestDriver.h"
+#endif
 #import <UIKit/UIKit.h>
 
 int main(int argc, char* argv[])
 {
+  #ifdef TOUCHTESTDRIVER
+  [TouchTestDriver initDriver];
+  #endif
+
     @autoreleasepool {
         int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
         return retVal;

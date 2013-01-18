@@ -29,9 +29,10 @@ public class ImageActivity extends AbstractActivity {
       @SuppressWarnings("unused") EventBus eventBus) {
     startWith(container);
     bind();
-    registerEvents();
     configureViewState();
     configureView();
+    registerEvents();
+    refresh();
   }
 
   @Override
@@ -69,6 +70,10 @@ public class ImageActivity extends AbstractActivity {
 
   private void registerEvents() {
     view.registerEvents();
+  }
+
+  private void refresh() {
+    view.refresh();
   }
 
   private void startWith(final AcceptsOneWidget container) {

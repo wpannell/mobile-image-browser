@@ -1,5 +1,7 @@
 package com.ventana.gwt.mobilebrowser.client.ui;
 
+import com.google.gwt.core.client.Scheduler;
+import com.google.gwt.core.client.Scheduler.ScheduledCommand;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
@@ -49,6 +51,16 @@ public class ImageViewerUi extends TestableComposite implements ImageView {
   public void deRegisterEvents() {
     eventContainer.clear();
     imageComponent.deRegisterEvents();
+  }
+
+  @Override
+  public void refresh() {
+    Scheduler.get().scheduleDeferred(new ScheduledCommand() {
+      @Override
+      public void execute() {
+        imageComponent.refresh();
+      }
+    });
   }
 
   @Override
