@@ -31,13 +31,14 @@
 			<id>plugins</id>
 			<url>http://gwtquery-plugins.googlecode.com/svn/mavenrepo</url>
 		</repository>
-		<repository>
-		  <id>bioimagene</id>
-		  <name>bioimagene central repo</name>
-		  <releases />
-		  <snapshots />
-		  <url>http://hobbit:92/artifactory/BioimageneRepo</url>
-		</repository>
+    <repository>
+      <id>cloudbees-private-snapshot-repository</id>
+      <url>https://repository-ventana.forge.cloudbees.com/snapshot</url>
+    </repository>
+    <repository>
+      <id>cloudbees-private-release-repository</id>
+      <url>https://repository-ventana.forge.cloudbees.com/release</url>
+    </repository>
 	</repositories>
 
 	<dependencies>
