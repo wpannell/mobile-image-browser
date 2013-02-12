@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+   LastUpgradeVersion = "0460"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -62,7 +63,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "http://192.168.1.6/concerto/touchtest"
+            argument = "http://testdrive.soasta.com/concerto/touchtest"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

@@ -82,7 +82,7 @@
 		50F5D65F17A8D35343735623 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65817A8D35343735623 /* MapKit.framework */; };
 		50F5D66017A8D35343735623 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65917A8D35343735623 /* libz.dylib */; };
 		50F5D66117A8D35343735623 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65A17A8D35343735623 /* libxml2.dylib */; };
-		50F5D66217A8D35343735623 /* libTouchTestDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5D65B17A8D35343735623 /* libTouchTestDriver.a */; };
+		5114413B13A4235343735623 /* libTouchTestDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5114413813A4235343735623 /* libTouchTestDriver.a */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -150,14 +150,14 @@
 		30E1352610E2C1420031B30D /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cordova.plist; path = ../Cordova.plist; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* VentanaMobileBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VentanaMobileBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowser copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "VentanaMobileBrowser copy.app"; path = VentanaMobileBrowsercopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowsercopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VentanaMobileBrowsercopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339BCDE116A60DAE00DE84C8 /* VentanaMobileBrowser copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VentanaMobileBrowser copy-Info.plist"; path = "/Users/WPANNELL/development/java/workspace/mobile-image-browser/ios/VentanaMobileBrowser copy-Info.plist"; sourceTree = "<absolute>"; };
 		50F5D65717A8D35343735623 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		50F5D65817A8D35343735623 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		50F5D65917A8D35343735623 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		50F5D65A17A8D35343735623 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		50F5D65B17A8D35343735623 /* libTouchTestDriver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTouchTestDriver.a; sourceTree = "<group>"; };
-		50F5D65C17A8D35343735623 /* TouchTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTestDriver.h; sourceTree = "<group>"; };
+		5114413813A4235343735623 /* libTouchTestDriver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTouchTestDriver.a; sourceTree = "<group>"; };
+		5114413913A4235343735623 /* TouchTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTestDriver.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* VentanaMobileBrowser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VentanaMobileBrowser-Info.plist"; path = "../VentanaMobileBrowser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,7 +208,7 @@
 				50F5D65F17A8D35343735623 /* MapKit.framework in Frameworks */,
 				50F5D66017A8D35343735623 /* libz.dylib in Frameworks */,
 				50F5D66117A8D35343735623 /* libxml2.dylib in Frameworks */,
-				50F5D66217A8D35343735623 /* libTouchTestDriver.a in Frameworks */,
+				5114413B13A4235343735623 /* libTouchTestDriver.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* VentanaMobileBrowser.app */,
-				339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowser copy.app */,
+				339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowsercopy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				339BCDE116A60DAE00DE84C8 /* VentanaMobileBrowser copy-Info.plist */,
-				50F5D65D17A8D35343735623 /* TouchTestDriver */,
+				5114413A13A4235343735623 /* TouchTestDriver */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -378,11 +378,11 @@
 			path = se.lproj;
 			sourceTree = "<group>";
 		};
-		50F5D65D17A8D35343735623 /* TouchTestDriver */ = {
+		5114413A13A4235343735623 /* TouchTestDriver */ = {
 			isa = PBXGroup;
 			children = (
-				50F5D65B17A8D35343735623 /* libTouchTestDriver.a */,
-				50F5D65C17A8D35343735623 /* TouchTestDriver.h */,
+				5114413813A4235343735623 /* libTouchTestDriver.a */,
+				5114413913A4235343735623 /* TouchTestDriver.h */,
 			);
 			path = TouchTestDriver;
 			sourceTree = "<group>";
@@ -425,7 +425,7 @@
 			);
 			name = "VentanaMobileBrowser copy";
 			productName = VentanaMobileBrowser;
-			productReference = 339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowser copy.app */;
+			productReference = 339BCDDF16A60DAD00DE84C8 /* VentanaMobileBrowsercopy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -434,7 +434,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VentanaMobileBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -637,7 +637,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -659,7 +658,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -679,7 +677,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -721,7 +718,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -760,12 +756,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos6.0]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
@@ -799,12 +800,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos6.0]" = "iPhone Developer: WILLIE G PANNELL JR (FW7VYGLFTV)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",

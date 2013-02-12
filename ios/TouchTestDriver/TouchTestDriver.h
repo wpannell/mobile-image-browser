@@ -52,6 +52,7 @@
  */
 @property(retain) NSString *touchTestId;
 
+
 @end
 
 @interface UIApplication (CloudTestMobile)
