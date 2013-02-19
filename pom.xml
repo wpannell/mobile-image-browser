@@ -464,9 +464,6 @@
         <goals>
           <goal>exploded</goal>
         </goals>
-        <configuration>
-          <webappDirectory>${project.build.directory}/war</webappDirectory>
-        </configuration>
       </plugin>
 
       <!-- assembly -->
