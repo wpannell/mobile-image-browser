@@ -625,6 +625,7 @@
     <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
   </build>
 
+
   <reporting>
     <plugins>
       <plugin>
