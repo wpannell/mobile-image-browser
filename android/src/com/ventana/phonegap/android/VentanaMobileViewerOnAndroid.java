@@ -24,13 +24,16 @@ import android.os.Bundle;
 import org.apache.cordova.*;
 
 @SuppressWarnings("unused")
-public class VentanaMobileViewerOnAndroid extends DroidGap
-{
-    @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        super.loadUrl("file:///android_asset/www/index.html");
-    }
+public class VentanaMobileViewerOnAndroid extends DroidGap {
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+	    super.onCreate(savedInstanceState);
+	    super.loadUrl("file:///android_asset/www/index.html");
+	}
+
+	@Override                                                       
+	public void onResume() {                                        
+	    super.onResume();                                           
+	}                                                               
 }
 
