@@ -18,3 +18,5 @@ gwt-unitCache
 war
 coverage.ec
 www-test
+android/bin/
+android/gen/
